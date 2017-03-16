@@ -8,4 +8,8 @@
 
 import Foundation
 
+print("---------- Factory Method ----------")
 let _ = FactoryMethodSample()
+
+print("---------- Abstract Factory ----------")
+let _ = AbstractFactorySample()

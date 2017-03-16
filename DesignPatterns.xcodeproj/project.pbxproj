@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		317761661E7B2D7E008FA0B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317761651E7B2D7E008FA0B2 /* main.swift */; };
 		3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3177616E1E7B2DED008FA0B2 /* FactoryMethod.swift */; };
+		317761771E7B3901008FA0B2 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317761761E7B3901008FA0B2 /* AbstractFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		317761651E7B2D7E008FA0B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3177616D1E7B2DED008FA0B2 /* factory_method.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = factory_method.png; sourceTree = "<group>"; };
 		3177616E1E7B2DED008FA0B2 /* FactoryMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
+		317761751E7B389C008FA0B2 /* abstract_factory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstract_factory.png; sourceTree = "<group>"; };
+		317761761E7B3901008FA0B2 /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,9 @@
 		317761641E7B2D7E008FA0B2 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				3177616C1E7B2DD1008FA0B2 /* Factory Method */,
-				317761701E7B2E3F008FA0B2 /* Abstract Factory */,
+				317761711E7B349B008FA0B2 /* Creational */,
+				317761721E7B34C9008FA0B2 /* Structural */,
+				317761731E7B34E3008FA0B2 /* Behavioral */,
 				317761651E7B2D7E008FA0B2 /* main.swift */,
 			);
 			path = DesignPatterns;
@@ -79,8 +83,33 @@
 		317761701E7B2E3F008FA0B2 /* Abstract Factory */ = {
 			isa = PBXGroup;
 			children = (
+				317761761E7B3901008FA0B2 /* AbstractFactory.swift */,
+				317761751E7B389C008FA0B2 /* abstract_factory.png */,
 			);
 			name = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		317761711E7B349B008FA0B2 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				3177616C1E7B2DD1008FA0B2 /* Factory Method */,
+				317761701E7B2E3F008FA0B2 /* Abstract Factory */,
+			);
+			name = Creational;
+			sourceTree = "<group>";
+		};
+		317761721E7B34C9008FA0B2 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Structural;
+			sourceTree = "<group>";
+		};
+		317761731E7B34E3008FA0B2 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Behavioral;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				317761771E7B3901008FA0B2 /* AbstractFactory.swift in Sources */,
 				317761661E7B2D7E008FA0B2 /* main.swift in Sources */,
 				3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */,
 			);
