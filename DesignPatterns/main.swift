@@ -13,3 +13,6 @@ let _ = FactoryMethodSample()
 
 print("---------- Abstract Factory ----------")
 let _ = AbstractFactorySample()
+
+print("---------- Singleton ----------")
+let _ = SingletonSample()

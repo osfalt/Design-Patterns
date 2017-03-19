@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3176E4781E7D5BFC005EC70E /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176E4771E7D5BFC005EC70E /* Singleton.swift */; };
 		317761661E7B2D7E008FA0B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317761651E7B2D7E008FA0B2 /* main.swift */; };
 		3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3177616E1E7B2DED008FA0B2 /* FactoryMethod.swift */; };
 		317761771E7B3901008FA0B2 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317761761E7B3901008FA0B2 /* AbstractFactory.swift */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3176E4771E7D5BFC005EC70E /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		3176E4791E7D61DB005EC70E /* singleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleton.png; sourceTree = "<group>"; };
 		317761621E7B2D7E008FA0B2 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		317761651E7B2D7E008FA0B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3177616D1E7B2DED008FA0B2 /* factory_method.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = factory_method.png; sourceTree = "<group>"; };
@@ -44,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3176E4761E7D5BC1005EC70E /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				3176E4771E7D5BFC005EC70E /* Singleton.swift */,
+				3176E4791E7D61DB005EC70E /* singleton.png */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
 		317761591E7B2D7E008FA0B2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +106,7 @@
 			children = (
 				3177616C1E7B2DD1008FA0B2 /* Factory Method */,
 				317761701E7B2E3F008FA0B2 /* Abstract Factory */,
+				3176E4761E7D5BC1005EC70E /* Singleton */,
 			);
 			name = Creational;
 			sourceTree = "<group>";
@@ -171,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				317761771E7B3901008FA0B2 /* AbstractFactory.swift in Sources */,
+				3176E4781E7D5BFC005EC70E /* Singleton.swift in Sources */,
 				317761661E7B2D7E008FA0B2 /* main.swift in Sources */,
 				3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */,
 			);
@@ -302,6 +316,7 @@
 				3177616B1E7B2D7E008FA0B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
