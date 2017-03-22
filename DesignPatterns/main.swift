@@ -8,11 +8,16 @@
 
 import Foundation
 
-print("---------- Factory Method ----------")
+print("========================= CREATIONAL PATTERNS =========================")
+
+print("-------------------- Factory Method --------------------")
 let _ = FactoryMethodSample()
 
-print("---------- Abstract Factory ----------")
+print("-------------------- Abstract Factory --------------------")
 let _ = AbstractFactorySample()
 
-print("---------- Singleton ----------")
+print("-------------------- Singleton --------------------")
 let _ = SingletonSample()
+
+print("-------------------- Builder --------------------")
+let _ = BuilderSample()

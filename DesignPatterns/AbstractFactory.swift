@@ -12,9 +12,9 @@
  Предоставляет интерфейс для создания семейств взаимосвязанных или взаимозависимых объектов, не специфицируя их конкретных классов.
  
  Плюсы:
- - изолирует конкретные классы;
- - упрощает замену семейств продуктов;
- - гарантирует сочетаемость продуктов.
+ + изолирует конкретные классы;
+ + упрощает замену семейств продуктов;
+ + гарантирует сочетаемость продуктов.
  
  Минусы:
  - сложно добавить поддержку нового вида продуктов.
@@ -64,7 +64,7 @@ fileprivate class Pixel: Smartphone {
 
 fileprivate class PixelC: Tablet {
     func makeFun() {
-        print("PixelC runs a game")
+        print("Pixel C runs a game")
     }
 }
 
@@ -120,16 +120,19 @@ fileprivate class GoogleFactory: AbstractFactory {
 
 class AbstractFactorySample {
     
+    private enum Manufacturer {
+        case apple
+        case google
+    }
+    
     init() {
         var factory: AbstractFactory
         
         switch randomManufacturer() {
-        case "Apple":
+        case .apple:
             factory = AppleFactory()
-        case "Google":
+        case .google:
             factory = GoogleFactory()
-        default:
-            return
         }
         
         let smartphone = factory.createSmartphone()
@@ -141,8 +144,8 @@ class AbstractFactorySample {
         laptop.makeJob()
     }
     
-    func randomManufacturer() -> String {
-        return arc4random_uniform(2) == 0 ? "Apple" : "Google"
+    private func randomManufacturer() -> Manufacturer {
+        return arc4random_uniform(2) == 0 ? .apple : .google
     }
     
 }

@@ -57,7 +57,7 @@ class SingletonSample {
             }
         }
 
-        CFRunLoopRun()
+        RunLoop.current.run(until: Date())
     }
     
 }

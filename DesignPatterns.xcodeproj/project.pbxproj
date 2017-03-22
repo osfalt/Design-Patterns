@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316E32601E7EE27800922266 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316E325F1E7EE27800922266 /* Builder.swift */; };
 		3176E4781E7D5BFC005EC70E /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176E4771E7D5BFC005EC70E /* Singleton.swift */; };
 		317761661E7B2D7E008FA0B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317761651E7B2D7E008FA0B2 /* main.swift */; };
 		3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3177616E1E7B2DED008FA0B2 /* FactoryMethod.swift */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		316E325F1E7EE27800922266 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		316E32611E7EE53E00922266 /* builder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = builder.png; sourceTree = "<group>"; };
 		3176E4771E7D5BFC005EC70E /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		3176E4791E7D61DB005EC70E /* singleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleton.png; sourceTree = "<group>"; };
 		317761621E7B2D7E008FA0B2 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		316E325E1E7EE23000922266 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				316E325F1E7EE27800922266 /* Builder.swift */,
+				316E32611E7EE53E00922266 /* builder.png */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
 		3176E4761E7D5BC1005EC70E /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 				3177616C1E7B2DD1008FA0B2 /* Factory Method */,
 				317761701E7B2E3F008FA0B2 /* Abstract Factory */,
 				3176E4761E7D5BC1005EC70E /* Singleton */,
+				316E325E1E7EE23000922266 /* Builder */,
 			);
 			name = Creational;
 			sourceTree = "<group>";
@@ -187,6 +200,7 @@
 				3176E4781E7D5BFC005EC70E /* Singleton.swift in Sources */,
 				317761661E7B2D7E008FA0B2 /* main.swift in Sources */,
 				3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */,
+				316E32601E7EE27800922266 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
