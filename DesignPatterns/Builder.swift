@@ -23,14 +23,14 @@ import Foundation
 
 // Product
 
-fileprivate class Smartphone: NSObject {
+fileprivate class Smartphone: CustomStringConvertible {
     
     var name: String?
     var os: String?
     var ram: String?
     var storage: String?
-
-    override var description: String {
+    
+    var description: String {
         let name = self.name ?? "unknown"
         let os = self.os ?? "unknown"
         let ram = self.ram ?? "unknown"
@@ -106,7 +106,7 @@ fileprivate class CheapSmartphoneBuilder: SmartphoneBuilder {
 
 // Director
 
-fileprivate class Director {
+fileprivate class Seller {
     
     var builder: SmartphoneBuilder!
     
@@ -171,7 +171,7 @@ fileprivate class BuilderHelper {
 
 // Director
 
-fileprivate class DirectorV2 {
+fileprivate class SellerV2 {
     
     var builder: SmartphoneBuilderV2!
     
@@ -202,24 +202,24 @@ class BuilderSample {
     private func runFirstVariant() {
         print("1) First Variant (classic):")
         
-        let director = Director(builder: ExpensiveSmartphoneBuilder())
-        let expensiveSmartphone = director.build()
+        let seller = Seller(builder: ExpensiveSmartphoneBuilder())
+        let expensiveSmartphone = seller.build()
         print("expensiveSmartphone = \(expensiveSmartphone)")
         
-        director.builder = CheapSmartphoneBuilder()
-        let cheapSmartphone = director.build()
+        seller.builder = CheapSmartphoneBuilder()
+        let cheapSmartphone = seller.build()
         print("cheapSmartphone = \(cheapSmartphone)")
     }
     
     private func runSecondVariant() {
         print("2) Second Variant (using closures):")
         
-        let director = DirectorV2(builder: BuilderHelper.builder(of: .expensive))
-        let expensiveSmartphone = director.build()
+        let seller = SellerV2(builder: BuilderHelper.builder(of: .expensive))
+        let expensiveSmartphone = seller.build()
         print("expensiveSmartphone = \(expensiveSmartphone)")
         
-        director.builder = BuilderHelper.builder(of: .cheap)
-        let cheapSmartphone = director.build()
+        seller.builder = BuilderHelper.builder(of: .cheap)
+        let cheapSmartphone = seller.build()
         print("cheapSmartphone = \(cheapSmartphone)")
     }
 }
