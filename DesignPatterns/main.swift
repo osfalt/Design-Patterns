@@ -21,3 +21,6 @@ let _ = SingletonSample()
 
 print("-------------------- Builder --------------------")
 let _ = BuilderSample()
+
+print("-------------------- Prototype --------------------")
+let _ = PrototypeSample()
