@@ -8,19 +8,44 @@
 
 import Foundation
 
-print("========================= CREATIONAL PATTERNS =========================")
+// MARK: - Creational Patterns
 
-print("-------------------- Factory Method --------------------")
-let _ = FactoryMethodSample()
+func runCreationalPatterns() {
+    print("========================= CREATIONAL PATTERNS =========================")
+    
+    print("-------------------- Factory Method --------------------")
+    let _ = FactoryMethodSample()
+    print("")
+    
+    print("-------------------- Abstract Factory --------------------")
+    let _ = AbstractFactorySample()
+    print("")
+    
+    print("-------------------- Singleton --------------------")
+    let _ = SingletonSample()
+    print("")
+    
+    print("-------------------- Builder --------------------")
+    let _ = BuilderSample()
+    print("")
+    
+    print("-------------------- Prototype --------------------")
+    let _ = PrototypeSample()
+    print("")
+}
 
-print("-------------------- Abstract Factory --------------------")
-let _ = AbstractFactorySample()
+// MARK: - Structural Patterns
 
-print("-------------------- Singleton --------------------")
-let _ = SingletonSample()
+func runStructuralPatterns() {
+    print("========================= STRUCTURAL PATTERNS =========================")
+    
+    print("-------------------- Adapter --------------------")
+    let _ = AdapterSample()
+    print("")
+}
 
-print("-------------------- Builder --------------------")
-let _ = BuilderSample()
+// MARK: - Run Samples
 
-print("-------------------- Prototype --------------------")
-let _ = PrototypeSample()
+runCreationalPatterns()
+runStructuralPatterns()
+
