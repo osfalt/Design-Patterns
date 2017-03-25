@@ -15,23 +15,23 @@ func runCreationalPatterns() {
     
     print("-------------------- Factory Method --------------------")
     let _ = FactoryMethodSample()
-    print("")
+    print()
     
     print("-------------------- Abstract Factory --------------------")
     let _ = AbstractFactorySample()
-    print("")
+    print()
     
     print("-------------------- Singleton --------------------")
     let _ = SingletonSample()
-    print("")
+    print()
     
     print("-------------------- Builder --------------------")
     let _ = BuilderSample()
-    print("")
+    print()
     
     print("-------------------- Prototype --------------------")
     let _ = PrototypeSample()
-    print("")
+    print()
 }
 
 // MARK: - Structural Patterns
@@ -41,7 +41,7 @@ func runStructuralPatterns() {
     
     print("-------------------- Adapter --------------------")
     let _ = AdapterSample()
-    print("")
+    print()
 }
 
 // MARK: - Run Samples
