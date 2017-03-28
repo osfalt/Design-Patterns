@@ -46,6 +46,10 @@ func runStructuralPatterns() {
     print("-------------------- Decorator --------------------")
     let _ = DecoratorSample()
     print()
+    
+    print("-------------------- Proxy --------------------")
+    let _ = ProxySample()
+    print()
 }
 
 // MARK: - Run Samples
