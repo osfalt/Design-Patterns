@@ -42,6 +42,10 @@ func runStructuralPatterns() {
     print("-------------------- Adapter --------------------")
     let _ = AdapterSample()
     print()
+    
+    print("-------------------- Decorator --------------------")
+    let _ = DecoratorSample()
+    print()
 }
 
 // MARK: - Run Samples

@@ -14,6 +14,7 @@
 		317761771E7B3901008FA0B2 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317761761E7B3901008FA0B2 /* AbstractFactory.swift */; };
 		317D0AD21E8462B200C2D7C8 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D0AD11E8462B200C2D7C8 /* Prototype.swift */; };
 		317D0AD61E8474CC00C2D7C8 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D0AD51E8474CC00C2D7C8 /* Adapter.swift */; };
+		31DB528B1E8AFBAD00891556 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB528A1E8AFBAD00891556 /* Decorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,8 @@
 		317D0AD51E8474CC00C2D7C8 /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		317D0AD71E847ED400C2D7C8 /* class_adapter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_adapter.png; sourceTree = "<group>"; };
 		317D0AD81E847F9E00C2D7C8 /* object_adapter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object_adapter.png; sourceTree = "<group>"; };
+		31DB52891E8AFBA400891556 /* decorator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decorator.png; sourceTree = "<group>"; };
+		31DB528A1E8AFBAD00891556 /* Decorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				317D0AD41E8474C100C2D7C8 /* Adapter */,
+				31DB52881E8AFB7300891556 /* Decorator */,
 			);
 			name = Structural;
 			sourceTree = "<group>";
@@ -164,6 +168,15 @@
 				317D0AD81E847F9E00C2D7C8 /* object_adapter.png */,
 			);
 			name = Adapter;
+			sourceTree = "<group>";
+		};
+		31DB52881E8AFB7300891556 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				31DB528A1E8AFBAD00891556 /* Decorator.swift */,
+				31DB52891E8AFBA400891556 /* decorator.png */,
+			);
+			name = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +242,7 @@
 				317D0AD21E8462B200C2D7C8 /* Prototype.swift in Sources */,
 				317761661E7B2D7E008FA0B2 /* main.swift in Sources */,
 				3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */,
+				31DB528B1E8AFBAD00891556 /* Decorator.swift in Sources */,
 				316E32601E7EE27800922266 /* Builder.swift in Sources */,
 				317D0AD61E8474CC00C2D7C8 /* Adapter.swift in Sources */,
 			);
