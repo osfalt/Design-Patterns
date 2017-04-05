@@ -50,6 +50,10 @@ func runStructuralPatterns() {
     print("-------------------- Proxy --------------------")
     let _ = ProxySample()
     print()
+
+    print("-------------------- Facade --------------------")
+    let _ = FacadeSample()
+    print()
 }
 
 // MARK: - Run Samples

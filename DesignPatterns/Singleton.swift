@@ -57,7 +57,7 @@ class SingletonSample {
             }
         }
 
-        RunLoop.current.run(until: Date())
+        RunLoop.current.run(until: Date(timeIntervalSinceNow: 0.1))
     }
     
 }
