@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		314E09181E9522E1003FEC1E /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314E09171E9522E1003FEC1E /* Composite.swift */; };
 		316E32601E7EE27800922266 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316E325F1E7EE27800922266 /* Builder.swift */; };
 		3176E4781E7D5BFC005EC70E /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176E4771E7D5BFC005EC70E /* Singleton.swift */; };
 		317761661E7B2D7E008FA0B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317761651E7B2D7E008FA0B2 /* main.swift */; };
@@ -32,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		314E09171E9522E1003FEC1E /* Composite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		314E09191E952D7D003FEC1E /* composite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite.png; sourceTree = "<group>"; };
 		316E325F1E7EE27800922266 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		316E32611E7EE53E00922266 /* builder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = builder.png; sourceTree = "<group>"; };
 		3176E4771E7D5BFC005EC70E /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
@@ -66,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		314E09161E952291003FEC1E /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				314E09171E9522E1003FEC1E /* Composite.swift */,
+				314E09191E952D7D003FEC1E /* composite.png */,
+			);
+			name = Composite;
+			sourceTree = "<group>";
+		};
 		316E325E1E7EE23000922266 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +160,7 @@
 				31DB52881E8AFB7300891556 /* Decorator */,
 				31DB52AA1E8B11A600891556 /* Proxy */,
 				31E502BE1E92F327007FC53B /* Facade */,
+				314E09161E952291003FEC1E /* Composite */,
 			);
 			name = Structural;
 			sourceTree = "<group>";
@@ -269,6 +282,7 @@
 				3176E4781E7D5BFC005EC70E /* Singleton.swift in Sources */,
 				317D0AD21E8462B200C2D7C8 /* Prototype.swift in Sources */,
 				317761661E7B2D7E008FA0B2 /* main.swift in Sources */,
+				314E09181E9522E1003FEC1E /* Composite.swift in Sources */,
 				3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */,
 				31DB528B1E8AFBAD00891556 /* Decorator.swift in Sources */,
 				316E32601E7EE27800922266 /* Builder.swift in Sources */,
