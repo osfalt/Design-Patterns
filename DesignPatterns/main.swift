@@ -58,6 +58,10 @@ func runStructuralPatterns() {
     print("-------------------- Composite --------------------")
     let _ = CompositeSample()
     print()
+    
+    print("-------------------- Bridge --------------------")
+    let _ = BridgeSample()
+    print()
 }
 
 // MARK: - Run Samples
