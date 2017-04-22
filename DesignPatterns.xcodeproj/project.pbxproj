@@ -10,6 +10,7 @@
 		3147214E1E96F0DB00420B38 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3147214D1E96F0DB00420B38 /* Bridge.swift */; };
 		314E09181E9522E1003FEC1E /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314E09171E9522E1003FEC1E /* Composite.swift */; };
 		316E32601E7EE27800922266 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316E325F1E7EE27800922266 /* Builder.swift */; };
+		317684D91E9C2DE0003C6340 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317684D81E9C2DE0003C6340 /* Flyweight.swift */; };
 		3176E4781E7D5BFC005EC70E /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176E4771E7D5BFC005EC70E /* Singleton.swift */; };
 		317761661E7B2D7E008FA0B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317761651E7B2D7E008FA0B2 /* main.swift */; };
 		3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3177616E1E7B2DED008FA0B2 /* FactoryMethod.swift */; };
@@ -40,6 +41,8 @@
 		314E09191E952D7D003FEC1E /* composite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite.png; sourceTree = "<group>"; };
 		316E325F1E7EE27800922266 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		316E32611E7EE53E00922266 /* builder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = builder.png; sourceTree = "<group>"; };
+		317684D81E9C2DE0003C6340 /* Flyweight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		317684DA1E9C30D7003C6340 /* flyweight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flyweight.png; sourceTree = "<group>"; };
 		3176E4771E7D5BFC005EC70E /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		3176E4791E7D61DB005EC70E /* singleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleton.png; sourceTree = "<group>"; };
 		317761621E7B2D7E008FA0B2 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +100,15 @@
 				316E32611E7EE53E00922266 /* builder.png */,
 			);
 			name = Builder;
+			sourceTree = "<group>";
+		};
+		317684D71E9C2DB9003C6340 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				317684D81E9C2DE0003C6340 /* Flyweight.swift */,
+				317684DA1E9C30D7003C6340 /* flyweight.png */,
+			);
+			name = Flyweight;
 			sourceTree = "<group>";
 		};
 		3176E4761E7D5BC1005EC70E /* Singleton */ = {
@@ -174,6 +186,7 @@
 				31E502BE1E92F327007FC53B /* Facade */,
 				314E09161E952291003FEC1E /* Composite */,
 				3147214A1E96F0B200420B38 /* Bridge */,
+				317684D71E9C2DB9003C6340 /* Flyweight */,
 			);
 			name = Structural;
 			sourceTree = "<group>";
@@ -258,7 +271,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Dre;
 				TargetAttributes = {
 					317761611E7B2D7E008FA0B2 = {
@@ -298,6 +311,7 @@
 				314E09181E9522E1003FEC1E /* Composite.swift in Sources */,
 				3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */,
 				3147214E1E96F0DB00420B38 /* Bridge.swift in Sources */,
+				317684D91E9C2DE0003C6340 /* Flyweight.swift in Sources */,
 				31DB528B1E8AFBAD00891556 /* Decorator.swift in Sources */,
 				316E32601E7EE27800922266 /* Builder.swift in Sources */,
 				317D0AD61E8474CC00C2D7C8 /* Adapter.swift in Sources */,
@@ -392,6 +406,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};

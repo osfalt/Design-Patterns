@@ -14,23 +14,23 @@ func runCreationalPatterns() {
     print("========================= CREATIONAL PATTERNS =========================")
     
     print("-------------------- Factory Method --------------------")
-    let _ = FactoryMethodSample()
+    _ = FactoryMethodSample()
     print()
     
     print("-------------------- Abstract Factory --------------------")
-    let _ = AbstractFactorySample()
+    _ = AbstractFactorySample()
     print()
     
     print("-------------------- Singleton --------------------")
-    let _ = SingletonSample()
+    _ = SingletonSample()
     print()
     
     print("-------------------- Builder --------------------")
-    let _ = BuilderSample()
+    _ = BuilderSample()
     print()
     
     print("-------------------- Prototype --------------------")
-    let _ = PrototypeSample()
+    _ = PrototypeSample()
     print()
 }
 
@@ -40,27 +40,31 @@ func runStructuralPatterns() {
     print("========================= STRUCTURAL PATTERNS =========================")
     
     print("-------------------- Adapter --------------------")
-    let _ = AdapterSample()
+    _ = AdapterSample()
     print()
     
     print("-------------------- Decorator --------------------")
-    let _ = DecoratorSample()
+    _ = DecoratorSample()
     print()
     
     print("-------------------- Proxy --------------------")
-    let _ = ProxySample()
+    _ = ProxySample()
     print()
 
     print("-------------------- Facade --------------------")
-    let _ = FacadeSample()
+    _ = FacadeSample()
     print()
     
     print("-------------------- Composite --------------------")
-    let _ = CompositeSample()
+    _ = CompositeSample()
     print()
     
     print("-------------------- Bridge --------------------")
-    let _ = BridgeSample()
+    _ = BridgeSample()
+    print()
+    
+    print("-------------------- Flyweight --------------------")
+    _ = FlyweightSample()
     print()
 }
 
