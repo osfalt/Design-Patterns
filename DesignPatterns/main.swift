@@ -68,8 +68,19 @@ func runStructuralPatterns() {
     print()
 }
 
+// MARK: - Behavioral Patterns
+
+func runBehavioralPatterns() {
+    print("========================= BEHAVIORAL PATTERNS =========================")
+    
+    print("-------------------- Observer --------------------")
+    _ = ObserverSample()
+    print()
+}
+
 // MARK: - Run Samples
 
 runCreationalPatterns()
 runStructuralPatterns()
+runBehavioralPatterns()
 
