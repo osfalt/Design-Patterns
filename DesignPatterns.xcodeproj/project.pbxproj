@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3133F72B1EABA33F00DFBFE3 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3133F72A1EABA33F00DFBFE3 /* Observer.swift */; };
 		3147214E1E96F0DB00420B38 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3147214D1E96F0DB00420B38 /* Bridge.swift */; };
+		31496F381EAD21E20092A59A /* TemplateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31496F371EAD21E20092A59A /* TemplateMethod.swift */; };
 		314E09181E9522E1003FEC1E /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314E09171E9522E1003FEC1E /* Composite.swift */; };
 		316E32601E7EE27800922266 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316E325F1E7EE27800922266 /* Builder.swift */; };
 		317684D91E9C2DE0003C6340 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317684D81E9C2DE0003C6340 /* Flyweight.swift */; };
@@ -40,6 +41,8 @@
 		3133F72D1EABDB7D00DFBFE3 /* observer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = observer.png; sourceTree = "<group>"; };
 		3147214D1E96F0DB00420B38 /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		3147214F1E96F43A00420B38 /* bridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge.png; sourceTree = "<group>"; };
+		31496F371EAD21E20092A59A /* TemplateMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateMethod.swift; sourceTree = "<group>"; };
+		31496F3B1EAD568C0092A59A /* template_method.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = template_method.png; sourceTree = "<group>"; };
 		314E09171E9522E1003FEC1E /* Composite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		314E09191E952D7D003FEC1E /* composite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = composite.png; sourceTree = "<group>"; };
 		316E325F1E7EE27800922266 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
@@ -94,6 +97,15 @@
 				3147214F1E96F43A00420B38 /* bridge.png */,
 			);
 			name = Bridge;
+			sourceTree = "<group>";
+		};
+		31496F361EAD21B30092A59A /* Template method */ = {
+			isa = PBXGroup;
+			children = (
+				31496F371EAD21E20092A59A /* TemplateMethod.swift */,
+				31496F3B1EAD568C0092A59A /* template_method.png */,
+			);
+			name = "Template method";
 			sourceTree = "<group>";
 		};
 		314E09161E952291003FEC1E /* Composite */ = {
@@ -207,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				3133F72C1EABA34800DFBFE3 /* Observer */,
+				31496F361EAD21B30092A59A /* Template method */,
 			);
 			name = Behavioral;
 			sourceTree = "<group>";
@@ -322,6 +335,7 @@
 				317D0AD21E8462B200C2D7C8 /* Prototype.swift in Sources */,
 				3133F72B1EABA33F00DFBFE3 /* Observer.swift in Sources */,
 				317761661E7B2D7E008FA0B2 /* main.swift in Sources */,
+				31496F381EAD21E20092A59A /* TemplateMethod.swift in Sources */,
 				314E09181E9522E1003FEC1E /* Composite.swift in Sources */,
 				3177616F1E7B2DED008FA0B2 /* FactoryMethod.swift in Sources */,
 				3147214E1E96F0DB00420B38 /* Bridge.swift in Sources */,
