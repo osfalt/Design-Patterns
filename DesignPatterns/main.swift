@@ -77,8 +77,12 @@ func runBehavioralPatterns() {
     _ = ObserverSample()
     print()
     
-    print("-------------------- TemplateMethod --------------------")
+    print("-------------------- Template Method --------------------")
     _ = TemplateMethodSample()
+    print()
+    
+    print("-------------------- Strategy --------------------")
+    _ = StrategySample()
     print()
 }
 
