@@ -20,6 +20,7 @@
 		317D0AD21E8462B200C2D7C8 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D0AD11E8462B200C2D7C8 /* Prototype.swift */; };
 		317D0AD61E8474CC00C2D7C8 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D0AD51E8474CC00C2D7C8 /* Adapter.swift */; };
 		31BAC0C61EAE60F60004B74F /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC0C51EAE60F60004B74F /* Strategy.swift */; };
+		31BAC0CA1EAE79B10004B74F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC0C91EAE79B10004B74F /* State.swift */; };
 		31DB528B1E8AFBAD00891556 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB528A1E8AFBAD00891556 /* Decorator.swift */; };
 		31DB52AC1E8B11BE00891556 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB52AB1E8B11BE00891556 /* Proxy.swift */; };
 		31E502C01E92F357007FC53B /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E502BF1E92F357007FC53B /* Facade.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		311C7FD91EB0C81200567231 /* state.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = state.png; sourceTree = "<group>"; };
 		3133F72A1EABA33F00DFBFE3 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		3133F72D1EABDB7D00DFBFE3 /* observer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = observer.png; sourceTree = "<group>"; };
 		3147214D1E96F0DB00420B38 /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		317D0AD81E847F9E00C2D7C8 /* object_adapter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object_adapter.png; sourceTree = "<group>"; };
 		31BAC0C51EAE60F60004B74F /* Strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 		31BAC0C71EAE65560004B74F /* strategy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strategy.png; sourceTree = "<group>"; };
+		31BAC0C91EAE79B10004B74F /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		31DB52891E8AFBA400891556 /* decorator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decorator.png; sourceTree = "<group>"; };
 		31DB528A1E8AFBAD00891556 /* Decorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		31DB52AB1E8B11BE00891556 /* Proxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
@@ -102,13 +105,13 @@
 			name = Bridge;
 			sourceTree = "<group>";
 		};
-		31496F361EAD21B30092A59A /* Template method */ = {
+		31496F361EAD21B30092A59A /* Template Method */ = {
 			isa = PBXGroup;
 			children = (
 				31496F371EAD21E20092A59A /* TemplateMethod.swift */,
 				31496F3B1EAD568C0092A59A /* template_method.png */,
 			);
-			name = "Template method";
+			name = "Template Method";
 			sourceTree = "<group>";
 		};
 		314E09161E952291003FEC1E /* Composite */ = {
@@ -222,8 +225,9 @@
 			isa = PBXGroup;
 			children = (
 				3133F72C1EABA34800DFBFE3 /* Observer */,
-				31496F361EAD21B30092A59A /* Template method */,
+				31496F361EAD21B30092A59A /* Template Method */,
 				31BAC0C41EAE60D90004B74F /* Strategy */,
+				31BAC0C81EAE79730004B74F /* State */,
 			);
 			name = Behavioral;
 			sourceTree = "<group>";
@@ -254,6 +258,15 @@
 				31BAC0C71EAE65560004B74F /* strategy.png */,
 			);
 			name = Strategy;
+			sourceTree = "<group>";
+		};
+		31BAC0C81EAE79730004B74F /* State */ = {
+			isa = PBXGroup;
+			children = (
+				31BAC0C91EAE79B10004B74F /* State.swift */,
+				311C7FD91EB0C81200567231 /* state.png */,
+			);
+			name = State;
 			sourceTree = "<group>";
 		};
 		31DB52881E8AFB7300891556 /* Decorator */ = {
@@ -354,6 +367,7 @@
 				3147214E1E96F0DB00420B38 /* Bridge.swift in Sources */,
 				317684D91E9C2DE0003C6340 /* Flyweight.swift in Sources */,
 				31BAC0C61EAE60F60004B74F /* Strategy.swift in Sources */,
+				31BAC0CA1EAE79B10004B74F /* State.swift in Sources */,
 				31DB528B1E8AFBAD00891556 /* Decorator.swift in Sources */,
 				316E32601E7EE27800922266 /* Builder.swift in Sources */,
 				317D0AD61E8474CC00C2D7C8 /* Adapter.swift in Sources */,

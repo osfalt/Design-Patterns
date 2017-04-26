@@ -84,6 +84,10 @@ func runBehavioralPatterns() {
     print("-------------------- Strategy --------------------")
     _ = StrategySample()
     print()
+    
+    print("-------------------- State --------------------")
+    _ = StateSample()
+    print()
 }
 
 // MARK: - Run Samples
